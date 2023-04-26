@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    font-family: sans-serif;
+}
+/*HEADER*/
+
+header{
+    background-color: #0084fd;
+}
+
+nav>div{
+    
+    padding: 2rem 0;
+}
+
+nav div i{
+    color: white;
+    font-size: 2rem;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: none;
+}
+
+/*MAIN*/
+
+/*UPPER SECTION*/
+
+.row {
+    
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+
+.col {
+    background-color: #b5ddff;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.big-col{
+    padding-bottom: 0;
+}
+
+.big-col img{
+    width: 50%;
+
+  }
+
+.row h3{
+    color: #0084fd;
+    margin-bottom:1rem;
+  }
+
+.row i{
+    color: #0084fd;
+    font-size: 4rem;
+    margin-bottom:1rem;
+}
+
+.row p {
+    color: darkslategray;
+    font-weight: bold;
+    font-size: .9rem;
+    line-height: 1rem;
+}
+
+/*STRATEGIC PLANNING SECTION*/
+
+.planning{
+    background-color: #9792e4;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.planning img{
+    width: 80%;
+}
+.planning h2{
+    font-size: 2rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.planning p{
+    color: white;
+    line-height: 1.7rem;
+}
+div.planning-2 {
+    background-color: white;
+    border-radius: 10%;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.planning-2 h3{
+    margin: 1rem 0;
+}
+
+.planning-2 p{
+    font-style: italic;
+    line-height: 1.7rem;
+    color: black;
+}
+
+/*TESTIMONIAL SECTION */
+
+
+
+.testimonial{
+    text-align: center;
+    margin-top: 3rem;   
+}
+
+.testimonial h2 {
+    color: #9792e4;
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+
+.testimonial p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color:#9792e4;
+    color: white;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-radius: 10%;
+
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card p{
+    width: 200px;
+    line-height: 1.5;
+    margin: 1rem;
+}
+
+
+
+
+/* INFERIOR SECTION */
+
+
+
+.inferior{
+    background-color:#9792e4;
+}
+    
+.inferior .row{
+    
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+
+.inferior .col {
+    background-color: white;
+    border-radius: 1rem;
+    text-align: start;
+    padding: 2rem;
+}
+
+.inferior .big-number{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #9792e4;
+}
+
+.inferior h3{
+    color: #9792e4;
+}
+    
+.inferior p{
+    font-size: .85rem;
+    line-height: 1.5rem;
+    color: gray;
+}
+
+
+/* ABOUT US SECTION */
+
+
+.about-us h2{
+    color: #9792e4;
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+.about-us p{
+   line-height: 2rem;
+    margin: 1rem 0;
+}
+    
+.about-us img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-us .text-purple{
+    font-size: 2rem;
+    color: #9792e4;
+    font-weight: bold;
+}
+
+
+
+/*FOOTER*/
+
+
+/* GET STARTED */
+
+.get-started{
+    background-color: #9792e4;
+    text-align: center;
+}
+
+.get-started h4 {
+    margin: 3rem 0 1rem 0;
+    font-size: 1.3rem;
+    color: gainsboro;
+    padding-top: 3rem;
+}
+
+.get-started h3 {
+    color:white;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.get-started h2{
+    color: orange;
+    font-size: 4rem;
+}
+
+.get-started p{
+    color: white;
+    margin-top:2rem;
+    line-height: 1.5rem;
+    
+}
+
+.get-started .credit{
+    font-size: 0.9rem;
+    padding-bottom: 2rem;
+}
+
+/*INFERIOR FOOTER */
+
+
+.inferior-footer {
+    
+    background-color: #333333;
+    
+    color: white;
+
+    text-align: center;
+
+}
+
+.inferior-footer p{
+    font-size: 0.9rem;
+    padding-top: 3rem;
+}
+
+.link{
+    padding-bottom: 3rem;
+}
+
+
+@media screen and (min-width:481px) {
+    
+}
+

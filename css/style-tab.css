@@ -1,0 +1,80 @@
+@media screen and (min-width:481px) {
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    
+      }
+
+    .col {
+  
+    width: calc((100% / 3) - 1rem);
+
+    }
+
+    .big-col{
+        width: calc((200% / 3) - 1rem);
+    }
+
+    .card {
+        flex-direction: row;
+        padding: 1rem;
+      }
+    
+    .card p{
+        width: 100%;
+      }
+
+    .inferior .row {
+       
+        flex-direction: row;
+        
+      } 
+
+    .inferior .col {
+       
+        width: calc((100% / 2) - 1rem);
+      }
+
+    .about-us{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+
+@media screen and (min-width:780px) {
+    
+    nav ul {
+        display: block;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+     nav>div:last-of-type{
+        display: none;
+     } 
+
+
+     .planning>div.container{
+        display: flex;
+        align-items: end;
+     }
+
+     .inferior .col {
+       
+        width: calc((100% / 3) - 1rem);
+      }
+
+}
+
+
+
+
